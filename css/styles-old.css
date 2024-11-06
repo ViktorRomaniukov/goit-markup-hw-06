@@ -213,30 +213,30 @@ img {
 
 /* Team Info */
 
-.employees {
-  /* background-color: #f4f4fd; */
+/* .employees {
+  background-color: #f4f4fd;
   padding: 120px 0;
-}
+} */
 
 /* .menu-title {
   margin-bottom: 72px;
 } */
 
-.info-list {
-  /* display: flex;
+/* .info-list { */
+/* display: flex;
   align-items: center;
   justify-content: center;
   text-align: center; */
-  gap: 24px;
-}
+/* gap: 24px; */
+/* } */
 
-.gallery {
-  /* background-color: #ffffff; */
-  width: calc((100% - 72px) / 4);
-  /* border-radius: 0px 0px 4px 4px;
+/* .gallery { */
+/* background-color: #ffffff; */
+/* width: calc((100% - 72px) / 4); */
+/* border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
-}
+/* } */
 
 /* .galleri-box {
   padding: 32px 0;
@@ -299,28 +299,28 @@ img {
 
 /* Portfolio */
 
-.portfolio {
+/* .portfolio {
   padding: 120px 0;
-}
+} */
 
-.conteiner-portfolio-list .section-heading {
+/* .conteiner-portfolio-list .section-heading {
   text-align: left;
-}
+} */
 
-.portfolio-list {
+/* .portfolio-list {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
+} */
 
-.box-overley {
+/* .box-overley {
   position: relative;
   overflow: hidden;
-}
+} */
 
-.overley {
+/* .overley {
   position: absolute;
   padding: 40px 32px;
   line-height: 1.5;
@@ -333,28 +333,28 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #f4f4fd;
   background: #4d5ae5;
-}
+} */
 
-.portfolio-list-gallery:hover .overley {
+/* .portfolio-list-gallery:hover .overley {
   transform: translateY(0);
-}
+} */
 
 .portfolio-list-gallery {
-  background-color: #fff;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* background-color: #fff; */
+  /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   width: calc((100% - 48px) / 3);
 }
 
-.portfolio-list-gallery:hover {
+/* .portfolio-list-gallery:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+} */
 
-.conteiner-portfolio-list {
+/* .conteiner-portfolio-list {
   border: 1px solid #e7e9fc;
   border-top: none;
   padding: 32px 16px;
-}
+} */
 
 /* Lower level */
 
