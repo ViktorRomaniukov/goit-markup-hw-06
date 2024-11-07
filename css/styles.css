@@ -618,3 +618,159 @@ h2 {
     padding: 120px 0;
   }
 }
+
+/* --------Lower level-------- */
+
+.page-footer {
+  background-color: #2e2f42;
+  padding: 96px 0;
+  height: 664px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-footer-logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-footer-logo-text .logo-link {
+  margin-bottom: 16px;
+  padding: 0;
+  margin-right: 0;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 288px;
+  margin-bottom: 72px;
+}
+
+.container-title-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+.title-footer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.social-list-footter {
+  gap: 16px;
+}
+
+.icons-footer {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-footer:hover,
+.icons-footer:active,
+.icons-footer:focus {
+  background-color: #31d0aa;
+}
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 288px;
+}
+
+.label-footer {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.input-email {
+  line-height: 2;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 288px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  opacity: 0.3;
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #fff;
+  padding-left: 16px;
+  outline: none;
+}
+
+.input-email:focus {
+  background-color: #404bbf;
+}
+
+.btn-email-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 165px;
+  height: 40px;
+  text-align: center;
+  padding: 8px 24px;
+}
+
+.btn-icons {
+  fill: #fff;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-footer {
+    height: 456px;
+    max-width: 768px;
+    padding: 96px 108px;
+  }
+
+  .container-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
+  .container-footer-logo-text {
+    align-items: flex-start;
+    width: 264px;
+  }
+
+  .container-title-footer {
+    align-items: flex-start;
+  }
+
+  .form-footer {
+    align-items: flex-start;
+    width: 453px;
+  }
+
+  .form-group {
+    display: flex;
+    gap: 24px;
+  }
+
+  .input-email {
+    width: 264px;
+  }
+}
+
+@media screen and (min-width: 1158px) {}
+
+/* -----------Form footer----------- */

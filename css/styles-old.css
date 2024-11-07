@@ -339,11 +339,11 @@ img {
   transform: translateY(0);
 } */
 
-.portfolio-list-gallery {
-  /* background-color: #fff; */
-  /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/* .portfolio-list-gallery {
+  background-color: #fff;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: calc((100% - 48px) / 3);
-}
+} */
 
 /* .portfolio-list-gallery:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -359,14 +359,13 @@ img {
 /* Lower level */
 
 .page-footer {
-  background-color: #2e2f42;
   padding: 100px 0;
-  background-color: #2e2f42;
+  /* background-color: #2e2f42; */
   height: 312px;
 }
 
 .container-footer {
-  display: flex;
+  /* display: flex; */
   align-items: baseline;
 }
 
@@ -379,9 +378,9 @@ img {
 }
 
 .text-footer {
-  color: #f4f4fd;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  /* color: #f4f4fd; */
+  /* line-height: 1.5; */
+  /* letter-spacing: 0.02em; */
   max-width: 264px;
 }
 
@@ -400,26 +399,26 @@ img {
   color: #2e2f42;
 } */
 
-.logo-footer {
+/* .logo-footer {
   color: #f4f4fd;
-}
+} */
 
-.title-footer {
+/* .title-footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
+} */
 
 .social-list-footter {
   max-width: 208px;
-  gap: 16px;
+  /* gap: 16px; */
   margin-right: 80px;
 }
 
-.icons-footer {
+/* .icons-footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -427,7 +426,7 @@ img {
 .icons-footer:active,
 .icons-footer:focus {
   background-color: #31d0aa;
-}
+} */
 
 /* Form footer */
 
@@ -439,33 +438,33 @@ input {
 }
 
 .form-group {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
 }
 
 .input-email {
-  line-height: 2;
+  /* line-height: 2;
   border: 1px solid #fff;
-  border-radius: 4px;
-  width: 264px;
-  height: 40px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #fff;
+  border-radius: 4px; */
+  /* width: 264px; */
+  /* height: 40px; */
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
+  /* background-color: transparent; */
+  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  /* color: #fff; */
   padding-left: 16px;
-  outline: none;
+  /* outline: none; */
 }
 
 .input-email::placeholder {
   color: #fff;
 }
 
-.input-email:focus {
+/* .input-email:focus {
   background-color: #404bbf;
-}
+} */
 
-.btn-email-subscribe {
+/* .btn-email-subscribe {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,12 +472,12 @@ input {
   height: 40px;
   text-align: center;
   padding: 8px 24px;
-}
+} */
 
-.btn-icons {
+/* .btn-icons {
   fill: #fff;
   margin-left: 16px;
-}
+} */
 
 /* Modal */
 
