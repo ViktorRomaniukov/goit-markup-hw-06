@@ -251,12 +251,12 @@ img {
   font-weight: 400;
 } */
 
-.text {
+/* .text {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
-}
+} */
 
 /* .galleri-box>.text {
   padding-bottom: 8px;
@@ -358,31 +358,31 @@ img {
 
 /* Lower level */
 
-.page-footer {
+/* .page-footer {
   padding: 100px 0;
-  /* background-color: #2e2f42; */
+  background-color: #2e2f42;
   height: 312px;
-}
+} */
 
-.container-footer {
-  /* display: flex; */
+/* .container-footer {
+  display: flex;
   align-items: baseline;
-}
+} */
 
-.container-footer-logo-text {
+/* .container-footer-logo-text {
   margin-right: 120px;
-}
+} */
 
-.container .logo-link {
+/* .container .logo-link {
   margin-bottom: 16px;
-}
+} */
 
-.text-footer {
+/* .text-footer { */
   /* color: #f4f4fd; */
   /* line-height: 1.5; */
   /* letter-spacing: 0.02em; */
-  max-width: 264px;
-}
+  /* max-width: 264px;
+} */
 
 /* .logo {
   font-family: "Raleway", sans-serif;
@@ -412,11 +412,11 @@ img {
   margin-bottom: 16px;
 } */
 
-.social-list-footter {
+/* .social-list-footter {
   max-width: 208px;
-  /* gap: 16px; */
+  gap: 16px;
   margin-right: 80px;
-}
+} */
 
 /* .icons-footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -429,36 +429,36 @@ img {
 } */
 
 /* Form footer */
-
+/* 
 input {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.04em;
-}
+} */
 
-.form-group {
-  /* display: flex; */
+/* .form-group {
+  display: flex;
   gap: 24px;
-}
+} */
 
-.input-email {
-  /* line-height: 2;
+/* .input-email {
+  line-height: 2;
   border: 1px solid #fff;
-  border-radius: 4px; */
-  /* width: 264px; */
-  /* height: 40px; */
-  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
-  /* background-color: transparent; */
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-  /* color: #fff; */
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #fff;
   padding-left: 16px;
-  /* outline: none; */
-}
-
+  outline: none;
+} */
+/* 
 .input-email::placeholder {
   color: #fff;
-}
+} */
 
 /* .input-email:focus {
   background-color: #404bbf;
@@ -481,7 +481,7 @@ input {
 
 /* Modal */
 
-.backdrop {
+/* .backdrop {
   width: 100%;
   height: 100%;
   position: fixed;
@@ -492,29 +492,29 @@ input {
   pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.backdrop.is-open {
+/* .backdrop.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 
-.modal {
-  position: absolute;
-  width: 408px;
+/* .modal { */
+  /* position: absolute; */
+  /* width: 408px;
   min-height: 584px;
-  padding: 72px 24px 24px 24px;
-  border-radius: 4px;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
-    0 2px 1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #fcfcfc;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
+  padding: 72px 24px 24px 24px; */
+  /* border-radius: 4px; */
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), */
+    /* 0 2px 1px 0 rgba(0, 0, 0, 0.2); */
+  /* background-color: #fcfcfc; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+/* } */
+/* 
 .btn-exit-modal {
   position: absolute;
   top: 24px;
@@ -544,9 +544,9 @@ input {
   background-color: #404bbf;
   border: none;
   fill: #fff;
-}
+} */
 
-.text-form {
+/* .text-form {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -554,44 +554,44 @@ input {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
-}
+} */
 
-label,
+/* label,
 .user-comment-modal::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-}
+} */
 
-.label-modal {
+/* .label-modal {
   display: block;
   margin-bottom: 4px;
-}
+} */
 
 .user-activ {
-  line-height: 1.17;
+  /* line-height: 1.17;
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
+  border-radius: 4px; */
   min-width: 360px;
-  height: 40px;
+  /* height: 40px;
   background-color: transparent;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  outline: transparent;
+  outline: transparent; */
 }
-
+/* 
 .form-input {
   margin-bottom: 8px;
-}
+} */
 
-label+div {
+/* label+div {
   position: relative;
-}
+} */
 
-.icons-activ {
+/* .icons-activ {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -610,39 +610,39 @@ label+div {
 
 .form-input-comment {
   margin-bottom: 16px;
-}
+} */
 
 .user-comment-modal {
-  resize: none;
+  /* resize: none;
   padding: 8px 16px;
-  height: 120px;
+  height: 120px; */
   margin-top: 4px;
-  font-size: 12px;
+  /* font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4); */
 }
-
+/* 
 .user-comment-modal::placeholder {
   color: rgba(46, 47, 66, 0.4);
-}
+} */
 
-.btn-form {
+/* .btn-form {
   width: 169px;
   height: 56px;
-}
+} */
 
-.checkbox-box {
+/* .checkbox-box {
   display: flex;
   align-items: center;
   margin-bottom: 24px;
-}
+} */
 
-.label-vector {
+/* .label-vector {
   cursor: pointer;
-}
+} */
 
-.box-vector {
+/* .box-vector {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -655,9 +655,9 @@ label+div {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.privacy {
+/* .privacy {
   line-height: 1.33;
   text-decoration: underline;
   text-decoration-skip-ink: none;
@@ -665,10 +665,10 @@ label+div {
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 0.04em;
-}
+} */
 
-.checkbox-hidden-vector:checked+.label-vector>.box-vector {
+/* .checkbox-hidden-vector:checked+.label-vector>.box-vector {
   border: none;
   background-color: #404bbf;
   fill: #f4f4fd;
-}
+} */
