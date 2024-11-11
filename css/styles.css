@@ -707,8 +707,8 @@ h2 {
   background-color: #2e2f42;
   padding: 96px 0;
   height: 664px;
-  max-width: 320px;
-  margin: 0 auto;
+  /* max-width: 320px;
+  margin: 0 auto; */
 }
 
 .container-footer {
@@ -819,7 +819,7 @@ h2 {
 @media screen and (min-width: 768px) {
   .page-footer {
     height: 456px;
-    max-width: 768px;
+    /* max-width: 768px; */
     padding: 96px 108px;
   }
 
@@ -855,7 +855,7 @@ h2 {
 
 @media screen and (min-width: 1158px) {
   .page-footer {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     padding: 100px 0;
     height: 312px;
   }
@@ -1104,5 +1104,11 @@ label+div {
 
   .user-activ {
     min-width: 360px;
+  }
+
+  .linkaddress a {
+    font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
   }
 }
