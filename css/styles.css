@@ -707,8 +707,6 @@ h2 {
   background-color: #2e2f42;
   padding: 96px 0;
   height: 664px;
-  /* max-width: 320px;
-  margin: 0 auto; */
 }
 
 .container-footer {
@@ -819,14 +817,16 @@ h2 {
 @media screen and (min-width: 768px) {
   .page-footer {
     height: 456px;
-    /* max-width: 768px; */
-    padding: 96px 108px;
+    /* padding: 96px 108px; */
+    padding: 96px 0;
   }
 
   .container-footer {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
+    margin: 0 auto;
+    padding-left: 160px;
   }
 
   .container-footer-logo-text {
@@ -855,7 +855,6 @@ h2 {
 
 @media screen and (min-width: 1158px) {
   .page-footer {
-    /* max-width: 1440px; */
     padding: 100px 0;
     height: 312px;
   }
@@ -863,6 +862,7 @@ h2 {
   .container-footer {
     align-items: baseline;
     column-gap: normal;
+    padding-left: 16px;
   }
 
   .container-footer-logo-text {
